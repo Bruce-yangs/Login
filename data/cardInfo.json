@@ -1,0 +1,32 @@
+{
+  "provinceId": "11",
+  "fullCardNumber": "89860116842002280292",
+  "cardKind": "SIMG",
+  "expDate": 4102415999000,
+  "cardCapacity": "128",
+  "subscriptionId": 0,
+  "storageId": "msnet",
+  "telecomId": "0",
+  "imsiId": "460094028806929",
+  "puk2": "48789374",
+  "responseHeader": {
+    "resultMessage": null,
+    "resultCode": "000000",
+    "detail": null
+  },
+  "pin1": "1234",
+  "createBatId": "C1604200016194075",
+  "numberSeg": "1718402",
+  "pin2": "81240324",
+  "puk1": "90755377",
+  "cardModel": "123",
+  "regionId": "110",
+  "status": "02",
+  "cardFee": 10000000,
+  "cardType": "SIMGU001",
+  "cost": 0,
+  "svcType": null,
+  "pwd": null,
+  "batch": "JX16205873",
+  "elecString": null
+}

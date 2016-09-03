@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<!-- 设置IE浏览器以最新的内核来渲染页面 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<!-- 设置视口的宽度为设备的宽度，禁止用户缩放 -->
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="format-detection" content="email=no"/>
+	<link rel="stylesheet" href="../css/main.css">
+	<title>身份信息</title>
+</head>
+<body>
+	 <div class="llrmain">
+	 <div class="llrone"><input class="topMsg" type="text" value="预存30元/0元月租/170 9121 3473" style="color:#5e83e1;font-size:14px"><span>√</span></div>
+	 <p class="pp">身份信息</p>
+	 <input class="llrinput info-name" type="text" placeholder="姓名">
+	 <input class="llrinput info-id" type="text" placeholder="身份证号">
+	 <input class="llrinput info-id-location" type="text" placeholder="身份证地址">
+	 <input class="llrinput info-phone" type="text" placeholder="联系电话">
+	 <div class="llrtake box-btn" id="upload"><p class="ps">上传照片</p></div>
+
+	 <div class='ck-box'><input type="checkbox" id='info-ck' ><label for="info-ck"></label>我已阅读<span>《入网协议》</span></div>
+	<!--  <div class="llrlast"><input type="checkbox"> 我已阅读<a href="#">《入网协议》</a></div> -->
+	 <div class="gray blues" id="submit"><a href="order.html">提交</a></div>
+	 </div> 
+	<div class="imgUpload"></div> 
+	<script type="text/html" id="upload-tpl">
+		<div class="llrphoto">
+		<dl class="imgs-Id">
+			<dd>手持身份证照片</dd>
+			<dt><img src="../images/1.png" alt=""><input type="file" class="pic1"/></dt>
+		</dl>
+		<dl class="imgs-Id">
+			<dd>身份证正面与手表包装ICCID号</dd>
+			<dt><img src="../images/2.png" alt=""><input type="file" class="pic2"/></dt>
+		</dl>
+		<dl class="imgs-Id">
+			<dd>身份证背面</dd>
+			<dt><img src="../images/3.png" alt=""><input type="file" class="pic3"/></dt>
+		</dl>
+		<div class="blues gray"><a>完成</a></div>
+		<div class="article">
+			<h4>上传须知</h4>
+			<p>1.手持身份证照片需要五官可见，证件全部信息无遮拦，完全露出双手手臂;</p>
+			<p>2.请上传实名制照片，若您的实名制审核不通过，将无法开户;</p>
+			<p>3.如审核不通过，民生通讯的客服会直接致电您的预留联系电话,收到电话48小时内不上传新的照片，该笔订单自动作废。</p>
+		</div>
+	</div>
+	</script>
+   
+	<script src="../build/build.js"></script>
+
+</body>
+</html>

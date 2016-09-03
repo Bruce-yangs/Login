@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="email=no">
+	<title>tab切换</title>
+	<link rel="stylesheet" href="../css/tab.css">
+</head>
+<body>
+	<div class="css-tab">
+		<header class="css-tab-header">
+			<h2>账户余额: <span class="css-tab-money">152.00</span>元</h2>
+			<ul class="css-tab-nav">
+				<li class="css-bg"><a href="#css-tab-num">用量查询</a></li>
+				<li><a href="#css-tab-add">话费充值</a></li>
+				<li><a href="#css-tab-sum">当月话费</a></li>
+				<li><a href="#css-tab-person">个人中心</a></li>
+			</ul>
+		</header>
+		<section class="css-tab-main">
+			<article class="css-tab-num" id="css-tab-num">
+				<div class="css-num-one">
+					<h3>流量</h3>
+					<p>本月已使用套餐内流量12.25MB，剩余37.75MB；问问激活专享流量已使用0MB，剩余100MB</p>
+				</div>
+				<div class="css-num-two">
+					<h3>语音通话</h3>
+					<p>本月已使用套餐内语音通话23分钟，剩余7分钟</p>
+				</div>
+				<div class="css-num-three">
+					<h3>短信</h3>
+					<p>本月已发送14条点对点短信</p>
+				</div>
+				<div class="css-num-footer">
+					<small>注：本页数据仅供参考，更多详情请登录民生通讯官方网站www.ms170.cn进行查询</small>
+                    <small>民生通讯官方客服:400-6509170</small>
+				</div>
+			</article>
+			<article class="css-tab-add" id="css-tab-add">
+				<h3><input type="telephone" placeholder="充值手机号码" id="css-add-tel"></h3>
+				<div class="css-add-mon">
+					<h4>充值金额</h4>
+					<ul id="css-add-price">
+						<li class="css-on">50元</li>
+						<li>100元</li>
+						<li>200元</li>
+						<li>500元</li>
+					</ul>
+				</div>
+				<div class="css-add-btn gray css-btn"><a href="state.html">立即充值</a></div>
+			</article>
+			<article class="css-tab-sum" id="css-tab-sum">
+				<div class="css-sum-one">
+					<h3>月基本费<span>14.9元</span></h3>
+                    <ul>
+                    	<li><img src="../images/css-1.png" alt="">基本月租 <i>9.9元</i> </li>
+                    	<li><img src="../images/css-1.png" alt="">来电显示 <i>5.0元</i> </li>
+                    </ul>
+				</div>
+				<div class="css-sum-two">
+					<h3>增值业务<span>2.9元</span></h3>
+                    <ul>
+                    	<li><img src="../images/css-1.png" alt="">点对点短信 <i>0.3元</i> </li>
+                    	<li><img src="../images/css-1.png" alt="">数据流量 <i>2.6元</i> </li>
+                    </ul>
+				</div>
+				<div class="css-sum-three">
+					<h3>语音通话<span>3.2元</span></h3>
+				</div>
+				<div class="css-sum-four">
+					<h3>合计应缴<span>21.0元</span></h3>
+					<p>特别提醒:如果您欠费后90天内未充值，您的号码将作销号处理</p>
+				</div>
+				<div class="css-num-footer">
+					<small>注：本页数据仅供参考，更多详情请登录民生通讯官方网站www.ms170.cn进行查询</small>
+                    <small>民生通讯官方客服:400-6509170</small>
+				</div>
+			</article>
+			<article class="css-tab-person" id="css-tab-person">
+				<div class="css-person-menu">
+					<h2>我的套餐</h2>
+					<h4>9.9月租套餐</h4>
+					<ul>
+						<li><img src="../images/css-1.png" alt="">9.9元月租</li>
+						<li><img src="../images/css-1.png" alt="">30分钟语音通话</li>
+						<li><img src="../images/css-1.png" alt="">50MB流量</li>
+						<li><img src="../images/css-1.png" alt="">超出30分钟部分，主叫0.15元/分钟</li>
+						<li><img src="../images/css-1.png" alt="">超出30MB流量部分，0.15元/MB</li>
+					</ul>
+				</div>
+				<div class="css-person-btn blue"><a href="">退出登录</a></div>
+				<div class="css-num-footer">
+					<small>注：本页数据仅供参考，更多详情请登录民生通讯官方网站www.ms170.cn进行查询</small>
+                    <small>民生通讯官方客服:400-6509170</small>
+				</div>
+			</article>
+		</section>
+		
+	</div>
+
+	<script src="../js/jquery.js"></script>
+	<script src="../js/tab.js"></script>
+</body>
+</html>

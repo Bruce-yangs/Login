@@ -1,0 +1,59 @@
+{
+    "responseHeader": {
+        "resultCode": "000000",
+        "resultMessage": "查询成功"
+    },
+    "usageInfo": [
+        {
+            "availableAmount": "0",
+            "shared": null,
+            "txId": null,
+            "pageSize": 20,
+            "dbRouteValue": null,
+            "messageType": "分钟",
+            "productId": null,
+            "resourceType": "语音",
+            "appName": "paas",
+            "dbRouteBy": null,
+            "usedAmount": "10",
+            "pageNo": 1,
+            "traceId": null,
+            "totalAmount": "0",
+            "productName": null
+        },
+        {
+            "availableAmount": "0",
+            "shared": null,
+            "txId": null,
+            "pageSize": 20,
+            "dbRouteValue": null,
+            "messageType": "条",
+            "productId": null,
+            "resourceType": "短信",
+            "appName": "paas",
+            "dbRouteBy": null,
+            "usedAmount": "2",
+            "pageNo": 1,
+            "traceId": null,
+            "totalAmount": "0",
+            "productName": null
+        },
+        {
+            "availableAmount": "0",
+            "shared": null,
+            "txId": null,
+            "pageSize": 20,
+            "dbRouteValue": null,
+            "messageType": "MB",
+            "productId": null,
+            "resourceType": "数据",
+            "appName": "paas",
+            "dbRouteBy": null,
+            "usedAmount": "151",
+            "pageNo": 1,
+            "traceId": null,
+            "totalAmount": "0",
+            "productName": null
+        }
+    ]
+}

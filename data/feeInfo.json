@@ -1,0 +1,9 @@
+[
+  {
+    "discountFee": 0,
+    "totalFee": 3000,
+    "feeItemName": "普通预存",
+    "feeItemId": "10002002",
+    "adjustFee": 3000
+  }
+]

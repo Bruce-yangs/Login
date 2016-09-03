@@ -1,0 +1,337 @@
+*{
+	margin:0;
+	padding:0;
+}
+.css-tab{
+	@include full;
+	background:#EEEEEE;
+	padding-top:15px;
+	overflow:hidden;
+}
+
+/*------------------------header----------------------------*/
+.css-tab-header{
+    margin-bottom:6px;
+    width:100%;
+    height:97px;
+	background:#fff;
+
+    @include pos(fixed);
+    top:15px;
+    left:0;
+
+	h2{
+	   height:58px;
+	   line-height:58px;
+	   color:#515151;text-align:center;
+	   span{
+	       display:inline-block;
+	       color:#515151;
+	   }
+	}
+
+
+	.css-tab-nav{
+		height:36px;
+		width:80%;
+		margin-left:10%;
+		line-height:36px;
+		border-top:1px solid #eee;
+		li{
+		   width:25%;
+		   float:left;
+		   text-align:center;
+		   &.css-bg{
+		      a{
+			      font-size:12px;
+			      color:#7394E5;
+			      display: inline-block;
+			      border-bottom: 1px solid #7394E5;
+		      }
+		   }
+		   a{
+		      font-size:12px;
+		      color:#B6B6B6;
+		   }
+		}
+	}
+
+}
+
+/*------------------------main----------------------------*/
+.css-tab-main{
+    overflow:hidden;
+	background:#fff;
+	@include full;
+	//overflow-y:scroll;
+	@include pos(fixed);
+    top:118px;
+    left:0;
+}
+
+
+/*------------------------num----------------------------*/
+.css-tab-num{
+		background:#fff;
+		height:100%;
+		width:80%;
+		margin-left:10%;
+		//display:none;
+
+		.css-num-one{
+		   padding-top:12px;
+		   border-top:1px solid #eee;
+		   h3{
+			    font-size:15px;
+			    color:#7F7F7F;
+			    height:24px;
+			    line-height:24px;
+
+	        }
+	        p{
+	           line-height:20px;
+	           font-size:12px;
+	           color:#999;
+	           padding-bottom:21px;
+	        }
+		}
+		.css-num-two{
+		   @extend .css-num-one;
+		}
+		.css-num-three{
+		   @extend .css-num-one;
+		}
+	
+
+		.css-num-footer{
+		    //@include pos();
+		    @include pos(fixed);
+		    bottom:0;
+		    left:0;	
+		    width:100%;
+		    padding:15px 0 22px 0;
+		    background:#eee;	
+			small{
+			    display:inline-block;
+				width:80%;
+				margin-left:10%;
+				color:#9C9C9C;
+				font-size:10px;
+				line-height:22px;
+			}
+		}
+}
+
+/*------------------------add----------------------------*/
+.css-tab-add{
+	    background:#fff;
+		height:100%;
+		width:80%;
+		margin-left:10%;
+        padding-top:15px;
+		//display:none;
+
+		h3{
+		   font-size:14px;
+		   color:#9C9C9C;
+		   height:26px;
+		   line-height:26px;
+		   margin:0 0 7px 0;
+		   font-weight:normal;
+		   input{
+		       font-size:14px;
+		       height:26px;
+		       line-height:26px;
+		       width:100%;
+		       border:0;
+		       outline:none;
+		   }
+		}
+		.css-add-mon{
+		    border-top:1px solid #eee;
+		    h4{
+		       font-size:14px;
+		       color:#515151;
+		       height:50px;
+		       line-height:50px;
+		    }
+		    ul{
+		       height:107px;
+		       li{
+		          height:40px;
+		          line-height:40px;
+		          color:#9c9c9c;
+		          font-size:15px;
+		          float:left;
+		          border:1px solid #eee;
+		          width:45%;
+		          border-radius:6px;
+		          text-align:center;
+		          margin-bottom:12px;
+		          &:nth-of-type(2n){
+		             margin-left:10%;
+		          }
+		          &.css-on{
+		              color:#5E83E1;
+                      border:1px solid #5E83E1;
+		          }
+		       }
+		    }
+		}
+		.css-add-btn{
+		   
+		   &.css-btn{
+               line-height: .4rem;
+               text-align:center;
+               a{
+		          display:inline-block;
+		       }
+		   }
+		}
+}
+
+/*------------------------sum----------------------------*/
+.css-tab-sum{
+	background:#fff;
+	height:100%;
+	width:80%;
+	margin-left:10%;
+    padding-top:10px;
+
+	//display:none;
+
+    .css-sum-one{
+
+       h3{
+          height:30px;
+          line-height:30px;
+          font-size:15px;
+          color:#515151;
+          border-bottom:1px solid #eee;
+          @include pos(relative);
+       }
+       span{
+          @include pos;
+          right:0;
+          color:#5E83E1;
+       }
+       ul{
+          margin:11px 0;
+          li{
+             font-size:12px;
+             color:#909090;
+             height:21px;
+             line-height:21px;
+             @include pos(relative);
+             img{
+                 margin-right:2%;
+                 width:12px;
+                 height:10px;
+             }
+             i{
+                display:inline-block;
+                font-style:normal;
+                @include pos;
+                right:0;
+             }
+
+          }
+       }
+    }
+    .css-sum-two{
+         @extend .css-sum-one;
+    }
+    .css-sum-three{
+         @extend .css-sum-one;
+    }
+    .css-sum-four{
+         @extend .css-sum-one;
+         h3{
+             font-size:16px;
+	         font-weight:bolder;
+	         border:0;
+         }
+         p{
+            font-size:12px;
+            color:#5E83E1;
+            line-height:15px;
+            margin-top:10px;
+         }
+         
+    }
+
+    .css-num-footer{
+		    @include pos(fixed);
+		    bottom:0;
+		    left:0;	
+		    padding:15px 0 22px 0;
+		    background:#eee;
+		    width:100%;	
+			small{
+			    display:block;
+				width:80%;
+				margin-left:10%;
+				color:#9C9C9C;
+				font-size:10px;
+				line-height:22px;
+			}
+		}
+
+}
+/*------------------------person----------------------------*/
+.css-tab-person{
+	background:#fff;
+	height:100%;
+	width:80%;
+	margin-left:10%;
+	padding-top:15px;
+	.css-person-menu{
+	    h2{
+		   font-size:16px;
+		   color:#515151;
+		   height:24px;
+		   line-height:24px;
+		   margin:0 0 5px 0;
+		   
+		
+	    }
+	    h4{
+	       border-top:1px solid #eee;
+	       height:30px;
+	       line-height:30px;
+	       font-size:14px;
+	       color:#515151;
+	       //font-weight:normal;
+	    }
+	    ul{
+	       li{
+	          height:21px;
+	          line-height:21px;
+	          color:#9C9C9C;
+	          font-size:12px;
+	          img{
+                 margin-right:2%;
+                 width:12px;
+                 height:10px;
+             }
+	       }
+	    }
+	}
+     .css-num-footer{
+		    @include pos;
+		    bottom:0;
+		    left:0;	
+		    padding:15px 0 22px 0;
+		    background:#eee;
+		    width:100%;		
+			small{
+			    display:block;
+				width:80%;
+				margin-left:10%;
+				color:#9C9C9C;
+				font-size:10px;
+				line-height:22px;
+			}
+		}
+
+}

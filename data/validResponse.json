@@ -1,0 +1,7 @@
+{
+  "allowPay": "用户信息存在，可以缴费！",
+  "responseHeader": {
+    "resultCode": "000000",
+    "resultMessage": "成功"
+  }
+}

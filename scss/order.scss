@@ -1,0 +1,56 @@
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #fff;
+    padding: 0 30px;
+
+    .order-list {
+        background: #fff;
+        height: 86%;
+        li {
+            height: 40px;
+            line-height: 40px;
+            font-size: 14px;
+            @include pos(relative);
+
+            .grays {
+                color: #999;
+            }
+
+            .right {
+                @include pos;
+                right:0;
+            }
+            .border {
+                border-bottom: 1px solid #ccc;
+            }
+        }
+    }
+    .order .pay-btn {
+        height: 36px;
+        line-height: 36px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .btn {
+        width: 100%;
+        height: 40px;
+        border-radius: 19px;
+        background: #5E83E1;
+        color: #fff;
+        text-align: center;
+        line-height: 40px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+}
+
+.footer-text {
+    width: 100%;
+    padding: 20px 30px;
+    font-size: 12px;
+    background: #f4f4f4;
+}
+

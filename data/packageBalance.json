@@ -1,0 +1,112 @@
+{
+  "responseHeader": {
+    "resultCode": "000000",
+    "resultMessage": "查询成功"
+  },
+  "ResPackageDeductDetailResponse": [
+    {
+      "deductVos": [],
+      "packagesDetail": [
+        {
+          "deductAmount": 1,
+          "sysSvcType": 10,
+          "ownerId": 183555,
+          "cycleMonth": "201606",
+          "resourceType": 10
+        },
+        {
+          "deductAmount": 121,
+          "sysSvcType": 60,
+          "ownerId": 183555,
+          "cycleMonth": "201606",
+          "resourceType": 60
+        }
+      ],
+      "cycleMonth": null,
+      "productClass": "1",
+      "productName": "出门问问（9.9元A）",
+      "shareFlag": "01",
+      "packageBalancesList": [
+        {
+          "usedAmount": 1,
+          "resUnitName": "分钟",
+          "useType": "自由型",
+          "transferAmount": 0,
+          "balanceAmount": 19,
+          "totalAmount": 20,
+          "productName": null,
+          "sourceId": 428603,
+          "resourceType": 10,
+          "resBooks": [
+            {
+              "expireTime": 1467302400000,
+              "sourceType": 0,
+              "useType": "自由型",
+              "occupyAmount": 0,
+              "allowPresent": 1,
+              "effectTime": 1464710400000,
+              "effectMonth": "201606",
+              "bookId": 14366,
+              "sourceId": 428603,
+              "resourceType": 10,
+              "bookStatus": "1",
+              "usedAmount": 1,
+              "unitName": "分钟",
+              "transferAmount": 0,
+              "subjectId": 400000,
+              "balanceAmount": 19,
+              "totalAmount": 20,
+              "allowClear": 0,
+              "allowConvert": 1,
+              "expireMonth": "201607",
+              "bookName": "语音",
+              "bookCrateTime": 1464952615000
+            }
+          ],
+          "bookName": "语音"
+        },
+        {
+          "usedAmount": 0.11,
+          "resUnitName": "M",
+          "useType": "自由型",
+          "transferAmount": 0,
+          "balanceAmount": 19.88,
+          "totalAmount": 20,
+          "productName": null,
+          "sourceId": 428603,
+          "resourceType": 60,
+          "resBooks": [
+            {
+              "expireTime": 1467302400000,
+              "sourceType": 0,
+              "useType": "自由型",
+              "occupyAmount": 0,
+              "allowPresent": 1,
+              "effectTime": 1464710400000,
+              "effectMonth": "201606",
+              "bookId": 14367,
+              "sourceId": 428603,
+              "resourceType": 60,
+              "bookStatus": "1",
+              "usedAmount": 0.11,
+              "unitName": "M",
+              "transferAmount": 0,
+              "subjectId": 400002,
+              "balanceAmount": 19.88,
+              "totalAmount": 20,
+              "allowClear": 0,
+              "allowConvert": 1,
+              "expireMonth": "201607",
+              "bookName": "流量",
+              "bookCrateTime": 1464952615000
+            }
+          ],
+          "bookName": "流量"
+        }
+      ],
+      "sourceId": 428603,
+      "productType": "10040",
+      "productId": 1004000001
+    }
+  ]
+}
